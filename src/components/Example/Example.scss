@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+.Example {
+  width: 100%;
+  font-family: "Merriweather";
+  background-color: ghostwhite;
+  &__content {
+    text-align: center;
+    color: ghostwhite;
+    pre {
+      width: 120px;
+      height: 60px;
+      color: rgb(36, 33, 33);
+      padding: 8px;
+      font-size: 20px;
+      font-weight: 700;
+      background-color: rgb(182, 74, 74);
+      margin: -60px 1300px;
+      border-radius: 8px;
+      img {
+        width: 20px;
+        margin-top: 10px;
+      }
+    }
+
+    &-title {
+      background: url("../../../public/images/wedding.jpg") no-repeat center;
+      background-size: cover;
+      height: 100vh;
+      padding-top: 80px;
+
+      h2 {
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 100px;
+      }
+      h1 {
+        margin-bottom: 120px;
+        font-size: 180px;
+        span {
+          font-weight: 200;
+        }
+      }
+      p {
+        font-size: 54px;
+      }
+    }
+    &-about {
+      color: rgb(36, 33, 33);
+      margin: 140px auto;
+      h2 {
+        font-size: 54px;
+        text-transform: uppercase;
+      }
+      p {
+        width: 30em;
+        font-size: 28px;
+        margin: 60px auto;
+      }
+    }
+    &-clock {
+      color: rgb(36, 33, 33);
+      margin: 140px auto;
+      font-size: 36px;
+
+      h3 {
+        text-transform: uppercase;
+      }
+      > div {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+        margin-top: 60px;
+      }
+    }
+    &-dayProgramm {
+      color: rgb(36, 33, 33);
+      margin: 200px auto;
+
+      h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+      }
+      img {
+        width: 60px;
+        height: 60px;
+      }
+      &-one,
+      &-two,
+      &-three {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        margin: 100px 0;
+        h2 {
+          font-size: 32px;
+          margin-bottom: 20px;
+        }
+        &-title {
+          width: 34%;
+          text-align: left;
+          h2 {
+            font-size: 26px;
+          }
+          p {
+            font-size: 22px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    &-location {
+      color: rgb(36, 33, 33);
+      margin: 140px auto;
+
+      h2 {
+        font-size: 32px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+      }
+
+      img {
+        border-radius: 12px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin-bottom: 60px;
+      }
+      p {
+        font-size: 22px;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+      }
+      iframe {
+        width: 600px;
+        height: 400px;
+        border: 0;
+        outline: none;
+        border-radius: 12px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      }
+    }
+    &-contact {
+      color: rgb(36, 33, 33);
+
+      p {
+        font-size: 24px;
+        margin: 40px 0;
+      }
+      h4 {
+        font-size: 42px;
+        margin: 60px 0;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-content: start;
+        gap: 20px;
+
+        input {
+          width: 340px;
+          height: 50px;
+          margin: 0 auto;
+          padding: 8px;
+          border-radius: 8px;
+          border: 1px solid rgb(182, 74, 74);
+          background-color: ghostwhite;
+        }
+      }
+      select {
+        width: 340px;
+        height: 40px;
+        background-color: ghostwhite;
+        color: grey;
+        border: 2px solid rgb(182, 74, 74);
+        border-radius: 8px;
+        margin: 0 auto;
+        padding: 8px;
+      }
+      button {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+        color: ghostwhite;
+        background-color: rgb(182, 74, 74);
+        border-radius: 10px;
+        border: 0;
+        margin-top: 30px;
+        margin: 0 auto;
+      }
+      button:active {
+        scale: 0.96;
+      }
+    }
+  }
+}
