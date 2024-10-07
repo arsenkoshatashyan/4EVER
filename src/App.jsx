@@ -1,4 +1,3 @@
-import React from "react";
 import Example from "./components/Example/Example";
 import ExampleTwo from "./components/ExampleTwo/ExampleTwo";
 import ExampleThree from "./components/ExampleThree/ExampleThree";
@@ -8,9 +7,6 @@ export default function App() {
   return (
     <div>
       <Example />
-      {/* <ExampleTwo /> */}
-      {/* <ExampleThree/> */}
-      {/* <ExampleFour/> */}
     </div>
   );
 }
