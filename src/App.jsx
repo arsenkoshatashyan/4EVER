@@ -1,3 +1,9 @@
+import Example from "./Components/ExampleTwo/Example";
+
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <Example />
+    </div>
+  );
 }
