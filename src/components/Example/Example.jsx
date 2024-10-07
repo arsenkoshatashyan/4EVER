@@ -33,8 +33,7 @@ export default function Example() {
     <div className="Example">
       <div className="Example__content">
         <div className="Example__content-title">
-          <pre><img src="./images/lari.png" alt="" /> 100 </pre>
-          <h2>АШОТ & ЛИЛИТ</h2>
+          <h2>Ашот & Лилит</h2>
           <h1>
             А <span>|</span> Л
           </h1>
@@ -44,7 +43,7 @@ export default function Example() {
           <h2>дорогие гости!</h2>
           <p>
             В нашей жизни предстоят счастливые перемены! Мы хотим, чтобы в этот
-            день рядом с нами были самие близкие и дорогие для нас люди. будем
+            день рядом с нами были самие близкие и дорогие для нас люди. Будем
             рады разделить с вами чудесный праздник. <br /> <br /> С любовью,
             Ашот и Лилит
           </p>
@@ -120,7 +119,7 @@ export default function Example() {
             нас своим присутствием.
           </p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.06822813077457!2d43.48723375922515!3d41.40566870578986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4042f9042f11cacb%3A0x705b8a10482266a6!2z4YOi4YOQ4YOl4YOh4YOY4YOhIOGDkuGDkOGDm-GDneGDq-GDkOGDruGDlOGDkeGDmOGDoSDhg6Hhg5Thg6Dhg5Xhg5jhg6Hhg5ggIk1heGltIg!5e0!3m2!1sru!2sam!4v1727965003566!5m2!1sru!2sam"
+            src="https://yandex.com/maps/-/CDXIu6m9"
             width="400"
             height="300"
             loading="lazy"
